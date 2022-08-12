@@ -17,7 +17,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'FAIR-UMN-ECAL'
+project = 'FAIR-UMN'
 copyright = '2022, FAIR-UMN'
 author = 'Buyun Liang'
 
@@ -56,10 +56,10 @@ html_theme = "sphinx_book_theme"
 html_static_path = ['_static']
 
 html_logo = "./FAIR4HEP_logo.png"
-html_title = "FAIR-UMN-ECAL"
+html_title = "FAIR-UMN"
 
 html_theme_options = {
-   "repository_url": "https://github.com/FAIR-UMN/FAIR-UMN-ECAL",
+   "repository_url": "https://github.com/FAIR-UMN",
    "use_repository_button": True,
    "use_issues_button": True,
    # "logo_only": True,
