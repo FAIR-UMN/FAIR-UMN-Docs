@@ -3,14 +3,15 @@
 Datasets
 ========
 
-This pages show the detailed descriptions of the ECAL datasets. 
+This pages show the detailed descriptions of the CDMS and ECAL datasets. 
 
 .. toctree::
    :maxdepth: 1
  
-   description
-   Download <https://github.com/FAIR-UMN/fair_ecal_monitoring/blob/master/metadata.json>
-   Metadata <https://github.com/FAIR-UMN/fair_ecal_monitoring/blob/master/metadata.json>
+   CDMS Dataset <https://github.com/FAIR-UMN/FAIR-UMN-CDMS/tree/main/data>
+   ECAL
+
+
 
 
 

@@ -1,6 +1,6 @@
-**************
-Description
-**************
+****************************
+ECAL Dataset 
+****************************
 
 The data is provided for all 75848 crystals starting from 2016 through 2018. It includes the following columns.
 
@@ -11,3 +11,7 @@ The data is provided for all 75848 crystals starting from 2016 through 2018. It 
     #.  **calibration**: APD/PD ratio taken at laser\_datetime.
     #.  **time**: Time corresponding to the luminosity measurement (obtained from BRIL) closest to the laser\_datetime.
     #.  **int\_deliv\_inv\_ub**: Approximate integrated luminosity delivered up to the measurement in the units of micro barn inverse.
+
+The metadata is also available at `This GitHub Repo <https://github.com/FAIR-UMN/fair_ecal_monitoring/blob/master/metadata.json>`_
+
+Get the dataset from `Zenodo <https://zenodo.org/>`_ (DOI: 10.5281/zenodo.6954301)
