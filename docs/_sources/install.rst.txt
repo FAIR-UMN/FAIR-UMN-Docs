@@ -14,9 +14,9 @@ Set up from the YML file
 
         git clone https://github.com/FAIR-UMN/FAIR-UMN-ECAL
 
-2. Switch to ``FAIR-UMN-ECAL`` (*Note*: ``XXX`` here indicates the upper directory of ``FAIR-UMN-ECAL``. For example, if you clone ``FAIR-UMN-ECAL`` under ``/home/Download``, then you should replace ``XXX`` with ``/home/Download``.)::
+2. Switch to ``FAIR-UMN-ECAL``(or ``FAIR-UMN-CDMS``) (*Note*: ``XXX`` here indicates the upper directory of ``FAIR-UMN-ECAL`` (or ``FAIR-UMN-CDMS``). For example, if you clone ``FAIR-UMN-ECAL``(or ``FAIR-UMN-CDMS``) under ``/home/Download``, then you should replace ``XXX`` with ``/home/Download``.)::
 
-        cd XXX/FAIR-UMN-ECAL
+        cd XXX/FAIR-UMN-ECAL (or cd XXX/FAIR-UMN-CDMS)
 
 3. Deactivate conda base environment first you are in (otherwise, go to step 4 directly) (We use `Anaconda3 <https://www.anaconda.com/products/individual>`_ )::
 
@@ -54,9 +54,9 @@ Set up from the source
 
         git clone https://github.com/FAIR-UMN/FAIR-UMN-ECAL
 
-2. Switch to ``FAIR-UMN-ECAL`` (*Note*: ``XXX`` here indicates the upper directory of ``FAIR-UMN-ECAL``. For example, if you clone ``FAIR-UMN-ECAL`` under ``/home/Download``, then you should replace ``XXX`` with ``/home/Download``.)::
+2. Switch to ``FAIR-UMN-ECAL``(or ``FAIR-UMN-CDMS``) (*Note*: ``XXX`` here indicates the upper directory of ``FAIR-UMN-ECAL``(or ``FAIR-UMN-CDMS``). For example, if you clone ``FAIR-UMN-ECAL``(or ``FAIR-UMN-CDMS``) under ``/home/Download``, then you should replace ``XXX`` with ``/home/Download``.)::
 
-        cd XXX/FAIR-UMN-ECAL
+        cd XXX/FAIR-UMN-ECAL (or cd XXX/FAIR-UMN-CDMS)
 
 3. Deactivate conda base environment first you are in (otherwise, go to step 4 directly) (We use `Anaconda3 <https://www.anaconda.com/products/individual>`_ )::
 
