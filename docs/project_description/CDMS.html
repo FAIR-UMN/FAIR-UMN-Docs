@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Description &#8212; FAIR-UMN</title>
+    <title>CDMS &#8212; FAIR-UMN</title>
     
   <link href="../_static/css/theme.css" rel="stylesheet" />
   <link href="../_static/css/index.c5995385ac14fb8791e8eb36b4908be2.css" rel="stylesheet" />
@@ -36,8 +36,8 @@
     <script src="../_static/sphinx-book-theme.12a9622fbb08dcb3a2a40b2c02b83a57.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Installation" href="../install.html" />
-    <link rel="prev" title="Datasets" href="index.html" />
+    <link rel="next" title="ECAL" href="ECAL.html" />
+    <link rel="prev" title="Project Description" href="index.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="en" />
     
@@ -72,40 +72,40 @@
 </form><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
     <div class="bd-toc-item active">
         <ul class="current nav bd-sidenav">
- <li class="toctree-l1 has-children">
-  <a class="reference internal" href="../project_description/index.html">
-   Project Description
-  </a>
-  <input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/>
-  <label for="toctree-checkbox-1">
-   <i class="fas fa-chevron-down">
-   </i>
-  </label>
-  <ul>
-   <li class="toctree-l2">
-    <a class="reference internal" href="../project_description/CDMS.html">
-     CDMS
-    </a>
-   </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="../project_description/ECAL.html">
-     ECAL
-    </a>
-   </li>
-  </ul>
- </li>
  <li class="toctree-l1 current active has-children">
   <a class="reference internal" href="index.html">
-   Datasets
+   Project Description
   </a>
-  <input checked="" class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/>
-  <label for="toctree-checkbox-2">
+  <input checked="" class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/>
+  <label for="toctree-checkbox-1">
    <i class="fas fa-chevron-down">
    </i>
   </label>
   <ul class="current">
    <li class="toctree-l2 current active">
     <a class="current reference internal" href="#">
+     CDMS
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="ECAL.html">
+     ECAL
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="../dataset/index.html">
+   Datasets
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/>
+  <label for="toctree-checkbox-2">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../dataset/description.html">
      Description
     </a>
    </li>
@@ -194,7 +194,7 @@
         <!-- ipynb file if we had a myst markdown file -->
         
         <!-- Download raw file -->
-        <a class="dropdown-buttons" href="../_sources/dataset/description.rst.txt"><button type="button"
+        <a class="dropdown-buttons" href="../_sources/project_description/CDMS.rst.txt"><button type="button"
                 class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
                 data-placement="left">.rst</button></a>
         <!-- Download PDF via print -->
@@ -214,7 +214,7 @@
                 data-toggle="tooltip" data-placement="left" title="Source repository"><i
                     class="fab fa-github"></i>repository</button></a>
         <a class="issues-button"
-            href="https://github.com/FAIR-UMN/issues/new?title=Issue%20on%20page%20%2Fdataset/description.html&body=Your%20issue%20content%20here."><button
+            href="https://github.com/FAIR-UMN/issues/new?title=Issue%20on%20page%20%2Fproject_description/CDMS.html&body=Your%20issue%20content%20here."><button
                 type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
                 title="Open an issue"><i class="fas fa-lightbulb"></i>open issue</button></a>
         
@@ -235,6 +235,36 @@
         <!-- Table of contents -->
         <div class="d-none d-md-block col-md-2 bd-toc show">
             
+            <div class="tocsection onthispage pt-5 pb-3">
+                <i class="fas fa-list"></i> Contents
+            </div>
+            <nav id="bd-toc-nav" aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#introduction">
+   Introduction
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#detector-and-its-data">
+   Detector and Its Data
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#detector-information">
+     Detector Information
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#data-from-the-detector">
+     Data from the Detector
+    </a>
+   </li>
+  </ul>
+ </li>
+</ul>
+
+            </nav>
         </div>
     </div>
 </div>
@@ -243,20 +273,31 @@
         
               <div>
                 
-  <div class="section" id="description">
-<h1>Description<a class="headerlink" href="#description" title="Permalink to this headline">¶</a></h1>
-<p>The data is provided for all 75848 crystals starting from 2016 through 2018. It includes the following columns.</p>
-<blockquote>
-<div><ol class="arabic simple">
-<li><p><strong>xtal_id</strong>: Crystal Identification number within ECAL ranging from [0, 75848].</p></li>
-<li><p><strong>start_ts</strong>: Start of interval of validity (IOV).</p></li>
-<li><p><strong>stop_ts</strong>: End of IOV.</p></li>
-<li><p><strong>laser_datetime</strong>: Timestamp of the measurement for a given crystal within an IOV.</p></li>
-<li><p><strong>calibration</strong>: APD/PD ratio taken at laser_datetime.</p></li>
-<li><p><strong>time</strong>: Time corresponding to the luminosity measurement (obtained from BRIL) closest to the laser_datetime.</p></li>
-<li><p><strong>int_deliv_inv_ub</strong>: Approximate integrated luminosity delivered up to the measurement in the units of micro barn inverse.</p></li>
-</ol>
-</div></blockquote>
+  <div class="section" id="cdms">
+<h1>CDMS<a class="headerlink" href="#cdms" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="introduction">
+<h2>Introduction<a class="headerlink" href="#introduction" title="Permalink to this headline">¶</a></h2>
+<p>FAIR-UMN-CDMS: Identifying Interaction Location in SuperCDMS Detectors.</p>
+<p>In this project, we address the problem of accurately reconstruct the locations of interactions in theSuperCDMS detectors using machine learning methods. The approach is to use data collected with aradioactive source at known locations to train and qualify machine learning models.</p>
+</div>
+<div class="section" id="detector-and-its-data">
+<h2>Detector and Its Data<a class="headerlink" href="#detector-and-its-data" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="detector-information">
+<h3>Detector Information<a class="headerlink" href="#detector-information" title="Permalink to this headline">¶</a></h3>
+<p>A prototype SuperCDMS germanium detector was tested at the University of Minnesota with a radioactive source mounted on a movable stage that can scan from the edge to the center of the detector. The detector is disk-shaped with sensors placed on the top and bottom surfaces to detect the particles emitted by the radioactive source, which is shown in Figure 1:</p>
+<a class="reference internal image-reference" href="../_images/detector_photo.jpg"><img alt="../_images/detector_photo.jpg" class="align-center" src="../_images/detector_photo.jpg" style="width: 400px;" /></a>
+<p class="centered">
+<strong><em>Figure 1: A SuperCDMS dark matter detector.</em></strong></p><p>The sensors measure phonons (quantized vibrations of the crystal lattice) that are produced by the interacting particle and travel from the interaction location to the sensors. The number of phonons and the relative time of arrival at a particular sensor depends on the positions of the interaction and the sensor. The sensors are grouped into six regions on each side of the detector and each of these “channels” produces a waveform for every interaction. For the test performed at Minnesota, five channels on one side of the detector were used (Figure 2). The movable radioactive source was used to produce interactions at thirteen different locations on the detector along a radial path from the central axis to close to the the detector’s outer edge (Figure 3).</p>
+<a class="reference internal image-reference" href="../_images/cdms_merge.jpeg"><img alt="../_images/cdms_merge.jpeg" class="align-center" src="../_images/cdms_merge.jpeg" style="width: 400px;" /></a>
+<p class="centered">
+<strong><em>Figure 2: Pulses from an interaction in a SuperCDMS detector.</em></strong></p><a class="reference internal image-reference" href="../_images/run73_source_positions.png"><img alt="../_images/run73_source_positions.png" class="align-center" src="../_images/run73_source_positions.png" style="width: 400px;" /></a>
+<p class="centered">
+<strong><em>Figure 3: nteraction locations included in the dataset.</em></strong></p></div>
+<div class="section" id="data-from-the-detector">
+<h3>Data from the Detector<a class="headerlink" href="#data-from-the-detector" title="Permalink to this headline">¶</a></h3>
+<p>For each interaction a set of parameters was extracted from the signals from each of the five sensors. These parameters represent information known to be sensitive to interaction location, including the relative timing between pulses in different channels, and features like the pulse shape. The relative amplitudes of the pulses are also relevant but due to instabilities in amplification during the test this data is not included. The parameters included for each interaction are illustrated in Figure 4 and also see our <a class="reference external" href="https://github.com/FAIR-UMN/FAIR-UMN-CDMS/blob/main/doc/FAIR%20Document%20-%20Identifying%20Interaction%20Location%20in%20SuperCDMS%20Detectors.pdf">document</a> for details.</p>
+</div>
+</div>
 </div>
 
 
@@ -274,15 +315,15 @@
             <i class="prevnext-label fas fa-angle-left"></i>
             <div class="prevnext-info">
                 <p class="prevnext-label">previous</p>
-                <p class="prevnext-title">Datasets</p>
+                <p class="prevnext-title">Project Description</p>
             </div>
         </a>
     </div>
      <div id="next">
-        <a class="right-next" href="../install.html" title="next page">
+        <a class="right-next" href="ECAL.html" title="next page">
             <div class="prevnext-info">
                 <p class="prevnext-label">next</p>
-                <p class="prevnext-title">Installation</p>
+                <p class="prevnext-title">ECAL</p>
             </div>
             <i class="prevnext-label fas fa-angle-right"></i>
         </a>
