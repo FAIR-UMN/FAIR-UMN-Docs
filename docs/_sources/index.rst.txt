@@ -25,7 +25,7 @@ Contents
 .. toctree::
    :maxdepth: 1
    
-   project_description
+   project_description/index
    dataset/index
    install
    machine_learning/index

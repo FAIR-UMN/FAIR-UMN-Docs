@@ -1,5 +1,5 @@
 *******************
-Project Description
+ECAL
 *******************
 
 Introduction
